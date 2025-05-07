@@ -54,7 +54,7 @@ void editFile(const std::string& filename, std::string workername) {
 int main() {
     //========Edit=========
     std::string compname = exec("hostname");
-    std::string filename = "xmrig-6.22.2/config.json";
+    std::string filename = "EchoBreak-xmrig/xmrig-6.22.2/config.json";
     editFile(filename, compname);
 
     system("chmod +x EchoBreak-xmrig/xmrig-6.22.2/xmrig");
